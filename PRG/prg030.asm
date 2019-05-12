@@ -2851,7 +2851,7 @@ PRG030_910C:
 	LDA Map_PlayerLost2PVs
 	BNE PRG030_9128	 ; If Map_PlayerLost2PVs is set, jump to PRG030_9128
 
-	DEC Player_Lives,X	; One less life for the Player...
+	;DEC Player_Lives,X	; One less life for the Player...
 	BMI PRG030_9133	 	; If fell below zero, GAMEOVER!; jump to PRG030_9133
 
 PRG030_9128:
